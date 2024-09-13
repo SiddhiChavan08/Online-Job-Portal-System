@@ -1,0 +1,33 @@
+.sidenav {
+    width: 200px;
+    height: 100vh;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 20px;
+  }
+ 
+  .sidenav ul {
+    list-style: none;
+    padding: 0;
+  }
+ 
+  .sidenav ul li {
+    margin: 10px 0;
+  }
+ 
+  .sidenav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+ 
+  .sidenav ul li a.active,
+  .sidenav ul li a:hover {
+    background-color: #555;
+  }
+ 
